@@ -1,4 +1,4 @@
-# i-service
+# I-service
 
 ```mermaid
 flowchart TD
