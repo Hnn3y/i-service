@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "type": "commonjs",
+
+  "scripts": {
+    "dev": "nodemon index.js",
+    "build": "echo \"No build step for backend\""
+  },
+
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+
+    "api": "file:../../packages/api",
+  "types": "file:../../packages/types",
+  "utils": "file:../../packages/utils"
+  },
+
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
